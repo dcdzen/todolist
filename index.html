@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <header>
+      <a href="https://codenamedcd.github.io/"> <i class="fa fa-arrow-left" aria-hidden="true"></i> back </a>
+      <p>To Do List</p>
+    </header>
+    <section>
+      <p>
+        The text only appears in your browser. <br />
+        The text will disappear if you remove it manually or clear your browsing data.
+      </p>
+    </section>
+    <section id="alertInfo">
+      <p>Add your text!</p>
+    </section>
+    <section id="listInfo">
+      <div class="wrapper">
+        <input type="text" id="input-box" class="form-control" placeholder="Enter text..." />
+        <button type="button" id="myBtn" class="btn btn-info" onclick="addTask()">Add</button>
+      </div>
+      <ul id="list-container"></ul>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
